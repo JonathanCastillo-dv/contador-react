@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,900;1,700&display=swap');
+html,body{
+    color:#61dafb;
+    background-color: #1c1c1c;
+    font-family: 'Lato', sans-serif;
+    font-size:1.3rem;
+    padding:70px;
+    text-align:center
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+button {
+    font-family: 'Lato', sans-serif;
+    border:none;
+    padding:10px;
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+.btn-incrementar{
+    background-color: rgb(18, 219, 18);
+}
+.btn-incrementar:hover{
+    background-color: rgb(38, 153, 38);
+    transition: .5s ease-in-out;
+}
+
+.btn-decrementar{
+    background-color: rgb(224, 34, 43);
+}
+.btn-decrementar:hover{
+    background-color:  rgb(168, 40, 46);
+    transition: .5s ease-in-out;
 }
